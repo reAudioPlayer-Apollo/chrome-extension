@@ -1,0 +1,24 @@
+{
+    "name": "reAudioPlayer Apollo",
+    "description": "Integrate reApollo into chrome! https://reap.ml",
+    "version": "0.9",
+    "manifest_version": 3,
+    "permissions": [
+        "tabs", "activeTab"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/apollo_16.png",
+            "32": "/images/apollo_32.png",
+            "48": "/images/apollo_48.png",
+            "128": "/images/apollo_128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/apollo_16.png",
+        "32": "/images/apollo_32.png",
+        "48": "/images/apollo_48.png",
+        "128": "/images/apollo_128.png"
+    }
+}
